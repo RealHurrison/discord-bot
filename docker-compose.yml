@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+    environment:
+      - CLIENT_TOKEN=<your-client-token>
+      - DISCORD_TOKEN=<your-discord-token>
+    ports:
+      - "43000:3000"
